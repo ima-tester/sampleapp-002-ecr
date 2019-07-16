@@ -1,0 +1,38 @@
+parameters:
+  - name: application.bucket.endpoint
+    value: 'https://sample-temp-002-minio.app.sample-temp-002.sol01.superhub.io'
+  - name: application.bucket.endpoint.internal
+    value: 'http://sample-temp-002-minio.minio.svc.cluster.local:9000'
+  - name: application.bucket.name
+    value: default
+  - name: application.bucket.region
+    value: us-east-1
+  - name: application.description
+    value: Kubflow pipeline
+  - name: application.kubeflow.customKernel
+    value: 'false'
+  - name: application.name
+    value: sampleapp-002-ecr
+  - name: component.dex.okta.appId
+    value: 0oa4hang0pJzV08g12p7
+  - name: component.dex.okta.clientId
+    value: 0oa4hang0pJzV08g12p7
+  - name: component.dex.okta.issuer
+    value: 'https://agilestacks.okta.com'
+  - name: component.github.repository.name
+    value: sampleapp-002-ecr
+  - name: component.github.repository.organization
+    value: ima-tester
+outputs:
+  - name: application.bucket.endpoint
+  - name: application.bucket.endpoint.internal
+  - name: application.bucket.name
+  - name: application.bucket.region
+  - name: application.description
+  - name: application.kubeflow.customKernel
+  - name: application.name
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
